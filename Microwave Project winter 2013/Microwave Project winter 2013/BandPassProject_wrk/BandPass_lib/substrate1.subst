@@ -1,0 +1,15 @@
+<!DOCTYPE Substrate>
+<SubstrateModel>
+    <stack>
+        <material materialname="AIR"/>
+        <interface materialname="Cu" thick="17.5" thickunit="micron" groundplane="1"/>
+        <material materialname="Rogers_RO4350" thick="0.762" thickunit="millimeter"/>
+        <interface materialname="" thick="0" thickunit="micron"/>
+        <material materialname="AIR"/>
+    </stack>
+    <layers>
+        <layer materialname="Cu" toprough="" bottomrough="" thick="17.5" precedence="1" sheet="1" thickunit="micron" layer="1" negative="0" subtype="0" expand="0" index="1"/>
+    </layers>
+    <vias/>
+    <substrates/>
+</SubstrateModel>

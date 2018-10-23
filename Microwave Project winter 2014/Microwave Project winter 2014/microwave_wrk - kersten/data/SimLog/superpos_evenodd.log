@@ -1,0 +1,14 @@
+Error detected by hpeesofsim during circuit set up.
+    Unable to perform optimization.
+        No Optim component was found in the design.
+    To fix this problem:
+        From the schematic, choose the 'Optim/Stat/DOE' palette and place an 'Optim' component.
+
+
+-------------------------------------------------------------------------------
+Simulation finished with errors.
+-------------------------------------------------------------------------------
+
+Resource usage:
+  Total stopwatch time     =     0.20 seconds.
+

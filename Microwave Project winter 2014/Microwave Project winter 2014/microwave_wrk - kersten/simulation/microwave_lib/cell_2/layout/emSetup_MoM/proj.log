@@ -1,0 +1,91 @@
+Momentum MomEngine_64 11.20.082 (*) 2014.01 Feb 25 2014
+Copyright 1992-2014, Agilent Technologies
+Simulation started on: Fri Jan 16 14:44:49 2015
+Simulation Mode: uW
+Substrate valid
+Automatically determined a snap distance of
+0.0021 mil for layout healing.
+
+--- WARNING -------------------------------------------------------------------
+
+Layout healing changed the layout. The actual
+highest aggregate snap distance was 0.0001 mil.
+Further details have been written to the DRC
+report.
+
+-------------------------------------------------------------------------------
+Generating mesh at 10 GHz...
+S-parameter simulation
+S-parameter simulation started
+...initializing
+...extracting layout
+...expanding thick conductors
+...analyzing ports
+
+--- WARNING -------------------------------------------------------------------
+
+The 2D port solver data is not available for 
+thick conductor feedlines, using default values (50 Ohm) 
+for the transmission line parameters.
+
+-------------------------------------------------------------------------------
+...reducing mesh
+Automatic selection: direct compressed matrix solver
+Using multi-threading (4 threads)
+Matrix size: 9150 (reduced: 6316)
+Adaptive frequency sweep started
+Simulation frequency [1] = 0 Hz
+...loading Green functions
+...creating Basis sections
+...allocating interaction matrix
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calibrating ports
+...calculating S-parameters
+Simulation frequency [2] = 10 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calibrating ports
+...calculating S-parameters
+Adaptive:   0.0 % of frequency range covered
+Simulation frequency [3] = 6.66667 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calibrating ports
+...calculating S-parameters
+Simulation frequency [4] = 3.33333 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calibrating ports
+...calculating S-parameters
+Simulation frequency [5] = 5 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calibrating ports
+...calculating S-parameters
+Simulation frequency [6] = 8.33333 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calibrating ports
+...calculating S-parameters
+Simulation frequency [7] = 555.556 MHz
+...loading Green functions
+...loading interaction matrix
+.........|.

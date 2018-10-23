@@ -1,0 +1,12 @@
+Thu Jan 16 10:51:07 2014
+Writing Gerber file "C:\Users\DHAI\Desktop".
+
+Warnings occurred during translation:
+
+
+WARNING: For artwork accuracy, Gerber precision should have a finer resolution than ADS layout precision.
+To ensure this, set the "Fractional digits" Gerber export option to be one greater than the number
+ of decimal places in the "Layout Units > Resolution" layout preference value.
+
+Export Complete
+

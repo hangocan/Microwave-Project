@@ -1,0 +1,16 @@
+#Momentum: B.09.20.456 (*) 372.600 Nov 12 2011 
+#Momentum Date and Time: Tue Jan 14 16:00:17 2014
+
+Overall database status : 1 (file present and valid)
+
+Frequency range : from 0.00972265642 GHz to 10 GHz.
+
+Requested frequency range : from 2 GHz to 3 GHz.
+
+Individual status fields : (0 = FALSE, 1 = TRUE)
+ File exists             : 1
+ Substrates match        : 1
+ Frequency-range matches : 1
+
+Corresponding potentialpath : C:\Users\Laboringenieur
+Corresponding potentialname : C:\Users\Laboringenieur\substrates\0000.sdb

@@ -1,0 +1,19 @@
+
+SP SP1[1] <microwave_lib:cell_2:schematic>   freq=(1 GHz->9 GHz)
+.Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.638216) < MinRecommendValue(0.000008) OR UserValue > MaxRecommendValue(0.076200) for 'W2' in `Taper4'
+
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.638216) < MinRecommendValue(0.000008) OR UserValue > MaxRecommendValue(0.076200) for 'W2' in `Taper3'
+
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.638216) < MinRecommendValue(0.000008) OR UserValue > MaxRecommendValue(0.076200) for 'W2' in `Taper2'
+
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.638216) < MinRecommendValue(0.000008) OR UserValue > MaxRecommendValue(0.076200) for 'W2' in `Taper1'
+
+................................................................................
+
+Resource usage:
+  Total stopwatch time     =     0.40 seconds.
+

@@ -1,0 +1,5 @@
+jobName=EmPpMsgs
+jobType=emprep
+designName=BandPass_lib:Step7_BP_CLIN_Momentum_OP:layout
+ruleFilePath=
+addInfo="EM preprocessor messages displayed as DRC errors"

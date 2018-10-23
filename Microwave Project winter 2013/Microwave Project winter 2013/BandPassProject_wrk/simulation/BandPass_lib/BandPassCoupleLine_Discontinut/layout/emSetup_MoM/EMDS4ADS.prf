@@ -1,0 +1,62 @@
+Begin_Block  Header 
+  
+  Mode  ASCII 
+  File_Name  C:/Users/Laboringenieur/BandPass_wrk/simulation/BandPass_lib/BandPassCoupleLine_Discontinut/layout/emSetup_MoM/EMDS4ADS.prf 
+  Version  3.00 
+  
+End_Block  Header 
+
+Begin_Block  Data 
+  
+  Begin_Preferences 
+  
+  Begin_Material_Block 
+  Material __TOP    7.9215686274509800e-001     8.8235294117647056e-001     1.0000000000000000e+000  
+  Material cond    9.3333333333333335e-001     4.1568627450980394e-001     3.1372549019607843e-001  
+  Material __SubstrateLayer1    7.9215686274509800e-001     8.8235294117647056e-001     1.0000000000000000e+000  
+  Material closed_bottom    0.0000000000000000e+000     0.0000000000000000e+000     7.5294117647058822e-001  
+  End_Material_Block 
+  
+  Begin_Color_Block 
+  Object __SubstrateLayer1_2    7.9215686274509800e-001     8.8235294117647056e-001     1.0000000000000000e+000  
+  Object __TOP_2    7.9215686274509800e-001     8.8235294117647056e-001     1.0000000000000000e+000  
+  Object closed_bottom_2    0.0000000000000000e+000     0.0000000000000000e+000     7.5294117647058822e-001  
+  Object cond_6    9.3333333333333335e-001     4.1568627450980394e-001     3.1372549019607843e-001  
+  Object cond_5    9.3333333333333335e-001     4.1568627450980394e-001     3.1372549019607843e-001  
+  Object cond_4    9.3333333333333335e-001     4.1568627450980394e-001     3.1372549019607843e-001  
+  Object cond_3    9.3333333333333335e-001     4.1568627450980394e-001     3.1372549019607843e-001  
+  Object cond_2    9.3333333333333335e-001     4.1568627450980394e-001     3.1372549019607843e-001  
+  End_Color_Block 
+  
+  Begin_Visible_Block 
+  Object __SubstrateLayer1_2 1  0  0  
+  Object __TOP_2 1  0  0  
+  Object closed_bottom_2 1  0  70  
+  Object cond_6 1  0  0  
+  Object cond_5 1  0  0  
+  Object cond_4 1  0  0  
+  Object cond_3 1  0  0  
+  Object cond_2 1  0  0  
+  End_Visible_Block 
+  
+  Begin_Plane_Block 
+  Planes 0  
+  End_Plane_Block 
+  
+  Begin_Camera_Block 
+  Position   -2.2850416564941406e+002    -7.2956694335937500e+003     1.3891907226562500e+004  
+  Target    8.1241107177734375e+002    -3.6256607055664062e+001     4.9631872558593750e+002  
+  Up    2.2717282176017761e-001     8.4870946407318115e-001     4.7759005427360535e-001  
+     6.1086337890625000e+003     6.1086337890625000e+003  
+  End_Camera_Block 
+  
+  Begin_Background_Block 
+  Top_Color    0.0000000000000000e+000     0.0000000000000000e+000     0.0000000000000000e+000  
+  Bottom_Color    0.0000000000000000e+000     0.0000000000000000e+000     0.0000000000000000e+000  
+  Shadow 0  
+  End_Background_Block 
+  
+  End_Preferences 
+  
+End_Block  Data 
+

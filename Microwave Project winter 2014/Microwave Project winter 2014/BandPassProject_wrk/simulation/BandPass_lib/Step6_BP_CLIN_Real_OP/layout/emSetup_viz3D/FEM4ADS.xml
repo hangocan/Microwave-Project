@@ -1,0 +1,31 @@
+<!DOCTYPE EMViewerXML>
+<Visualization>
+ <Materials>
+  <material red="0.792156862745098" blue="1" name="__TOP" green="0.8823529411764706" />
+  <material red="0.9333333333333334" blue="0.3137254901960784" name="cond" green="0.4156862745098039" />
+  <material red="0.792156862745098" blue="1" name="__SubstrateLayer1" green="0.8823529411764706" />
+  <material red="0" blue="0.7529411764705882" name="closed_bottom" green="0" />
+ </Materials>
+ <Objects>
+  <object opaque="0" solid="0" visible="1" red="0.792156862745098" blue="1" name="__SubstrateLayer1_2" green="0.8823529411764706" />
+  <object opaque="0" solid="0" visible="1" red="0.792156862745098" blue="1" name="__TOP_2" green="0.8823529411764706" />
+  <object opaque="70" solid="1" visible="1" red="0" blue="0.7529411764705882" name="closed_bottom_2" green="0" />
+  <object opaque="0" solid="1" visible="1" red="0.9333333333333334" blue="0.3137254901960784" name="cond_8" green="0.4156862745098039" />
+  <object opaque="0" solid="1" visible="1" red="0.9333333333333334" blue="0.3137254901960784" name="cond_7" green="0.4156862745098039" />
+  <object opaque="0" solid="1" visible="1" red="0.9333333333333334" blue="0.3137254901960784" name="cond_6" green="0.4156862745098039" />
+  <object opaque="0" solid="1" visible="1" red="0.9333333333333334" blue="0.3137254901960784" name="cond_5" green="0.4156862745098039" />
+  <object opaque="0" solid="1" visible="1" red="0.9333333333333334" blue="0.3137254901960784" name="cond_4" green="0.4156862745098039" />
+  <object opaque="0" solid="1" visible="1" red="0.9333333333333334" blue="0.3137254901960784" name="cond_3" green="0.4156862745098039" />
+  <object opaque="0" solid="1" visible="1" red="0.9333333333333334" blue="0.3137254901960784" name="cond_2" green="0.4156862745098039" />
+ </Objects>
+ <Planes/>
+ <Camera>
+  <Position x="2712.85" y="-2222.61" z="2131.77" />
+  <Target x="652.693" y="-162.447" z="71.6076" />
+  <Up x="-0.408244" y="0.408252" z="0.816496" />
+  <Size width="1427.32" height="1427.32" />
+  <Top_Color red="0" blue="0" green="0" />
+  <Bottom_Color red="0" blue="0" green="0" />
+  <Background shadow="0" />
+ </Camera>
+</Visualization>

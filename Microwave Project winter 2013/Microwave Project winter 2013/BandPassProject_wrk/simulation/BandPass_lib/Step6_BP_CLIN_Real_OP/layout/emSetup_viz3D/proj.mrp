@@ -1,0 +1,22 @@
+Automatically determined a snap distance of
+0.0021 mil for layout healing.
+
+--- WARNING -------------------------------------------------------------------
+
+The port setup needed to be corrected:
+Calibration will not be used for port "P1" (pin
+"P1" is not on the edge between a conductive and
+a nonconductive region).
+
+-------------------------------------------------------------------------------
+
+
+--- WARNING -------------------------------------------------------------------
+
+The port setup needed to be corrected:
+Calibration will not be used for port "P2" (pin
+"P2" is not on the edge between a conductive and
+a nonconductive region).
+
+-------------------------------------------------------------------------------
+

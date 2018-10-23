@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      Kersten
+HostName                       Jarvis
+ProcessIdentifier              1360
+ProcessCreationTime_UTC        1421415769
+ProcessCreationTime_Readable   01/16/15 14:42:49 W. Europe Standard Time
+AppIdentifier                  OA File System Design Manager
+OSType                         win32
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         C:\Users\Kersten\Desktop\microwave_wrk - Copy\microwave_lib\cell_2\layout\layout.oa.cdslck
+TimeEditLocked                 01/16/15 14:43:40 W. Europe Standard Time

@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      NgocAn
+HostName                       Kaminari
+ProcessIdentifier              12220
+ProcessCreationTime_UTC        1421843821
+ProcessCreationTime_Readable   01/21/15 13:37:01 W. Europe Standard Time
+AppIdentifier                  OA File System Design Manager
+OSType                         win32
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         D:\Project Compilation\OLD\BandPassProject_wrk\BandPass_lib\%Step8_%Round%Up\schematic\sch.oa.cdslck
+TimeEditLocked                 01/21/15 15:06:22 W. Europe Standard Time

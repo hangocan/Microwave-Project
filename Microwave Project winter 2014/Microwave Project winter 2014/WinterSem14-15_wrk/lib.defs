@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE WinterSem14#2d15_lib WinterSem14-15_lib
+ASSIGN WinterSem14#2d15_lib libMode shared

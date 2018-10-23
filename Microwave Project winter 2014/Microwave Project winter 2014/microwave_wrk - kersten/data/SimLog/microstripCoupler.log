@@ -1,0 +1,9 @@
+Warning detected by hpeesofsim in Substrate model during netlist flattening.
+    Conductor Thickness T >= Substrate Height H in `MSub1'.
+
+SP SP1[1] <microwave_lib:microstripCoupler:schematic>   freq=(1 GHz->5 GHz)
+.........................................
+
+Resource usage:
+  Total stopwatch time     =     0.24 seconds.
+

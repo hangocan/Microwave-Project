@@ -1,0 +1,38 @@
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="WinterSem14-15_lib:Project:schematic"
+S_Param:SP1 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 \
+SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
+
+SweepPlan: SP1_stim Start=1 GHz Stop=10 GHz Step=0.1 GHz 
+
+OutputPlan:SP1_Output \
+      Type="Output" \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2
+
+#load "python","LinearCollapse"
+Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
+MCLIN:CLin1  N__1 N__14 N__0 N__3 Subst="MSub1" W=W10 S=0.32 mm L=7 mm 
+model MSub1 MSUB H=0.762 mm Er=3.48 Mur=1 Cond=6.0E+7 Hu=3.9e+034 mil T=0.0175 mm TanD=0.004 Rough=0 mil DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
+MSOBND:Bend1  N__3 N__11 Subst="MSub1" W=W10 
+MSOBND:Bend2  N__8 N__0 Subst="MSub1" W=W10 
+MSOBND:Bend4  N__14 N__5 Subst="MSub1" W=W10 
+MSOBND:Bend3  N__6 N__1 Subst="MSub1" W=W10 
+Port:Term1  N__29 0 Num=1 Z=50 Ohm Noise=yes 
+Port:Term2  N__16 0 Num=2 Z=50 Ohm Noise=yes 
+Port:Term3  N__12 0 Num=3 Z=50 Ohm Noise=yes 
+Port:Term4  N__18 0 Num=4 Z=50 Ohm Noise=yes 
+MSTEP:Step1  N__11 N__21 Subst="MSub1" W1=W10 W2=W20 
+MLIN2:TL1  N__21 N__18 Subst="MSub1" W=W20 L=4*W10 Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MSTEP:Step2  N__8 N__25 Subst="MSub1" W1=W10 W2=W20 
+MSTEP:Step3  N__28 N__6 Subst="MSub1" W1=W20 W2=W10 
+MSTEP:Step4  N__2 N__5 Subst="MSub1" W1=W20 W2=W10 
+MLIN2:TL2  N__25 N__16 Subst="MSub1" W=W20 L=4*W10 Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:TL3  N__12 N__28 Subst="MSub1" W=W20 L=4*W10 Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:TL4  N__29 N__2 Subst="MSub1" W=W20 L=4*W10 Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+
+W10=1.6 mm
+
+W20=1.711 mm

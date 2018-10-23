@@ -1,0 +1,40 @@
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="microwave_lib:cell_2:schematic"
+model MSub1 MSUB H=0.762 mm Er=3.48 Mur=1 Cond=5.96E+7 Hu=3.9e+034 mil T=17.5 um TanD=0 Rough=0 mil DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
+S_Param:SP1 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 \
+SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
+
+SweepPlan: SP1_stim Start=1.0 GHz Stop=9 GHz Step=0.1 GHz 
+
+OutputPlan:SP1_Output \
+      Type="Output" \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2
+
+#load "python","LinearCollapse"
+Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
+Port:Term1  N__1 0 Num=1 Z=50 Ohm Noise=yes 
+Port:Term2  N__5 0 Num=2 Z=50 Ohm Noise=yes 
+Port:Term3  N__12 0 Num=3 Z=50 Ohm Noise=yes 
+Port:Term4  N__2 0 Num=4 Z=50 Ohm Noise=yes 
+MCLIN:CLin2  N__9 N__25 N__10 N__11 Subst="MSub1"  W=W mm S=S mm L=L1 mm 
+
+L1=10.5521674 tune{ 4.65094 to 25 by 0.01 }
+Ltap=0
+L2=10 tune{ 4.65094 to 13.95282 by 0.930188 }
+S=0.254 tune{ 0.072029 to 0.5 by 0.001 }
+W=0.63821615 tune{ 0.203725 to 2.111175 by 0.00140745 }
+MCURVE2:Curve4  N__25 N__26 Subst="MSub1" W=W mm Angle=90 Radius=100.0 mil Nmode=2 
+MCURVE2:Curve1  N__0 N__9 Subst="MSub1" W=W mm Angle=90 Radius=100.0 mil Nmode=2 
+MCURVE2:Curve2  N__11 N__27 Subst="MSub1" W=W mm Angle=90 Radius=100.0 mil Nmode=2 
+MCURVE2:Curve3  N__13 N__10 Subst="MSub1" W=W mm Angle=90 Radius=100.0 mil Nmode=2 
+MLIN2:TL3  N__5 N__21 Subst="MSub1" W=1.724880 mm L=L2 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:TL2  N__1 N__23 Subst="MSub1" W=1.724880 mm L=L2 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:TL4  N__20 N__2 Subst="MSub1" W=1.724880 mm L=L2 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:TL5  N__22 N__12 Subst="MSub1" W=1.724880 mm L=L2 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MTAPER:Taper1  N__22 N__26 Subst="MSub1" W1=1.724880 mm W2=W L=Ltap mm 
+MTAPER:Taper2  N__20 N__13 Subst="MSub1" W1=1.724880 mm W2=W L=Ltap mm 
+MTAPER:Taper3  N__21 N__27 Subst="MSub1" W1=1.724880 mm W2=W L=Ltap mm 
+MTAPER:Taper4  N__23 N__0 Subst="MSub1" W1=1.724880 mm W2=W L=Ltap mm 

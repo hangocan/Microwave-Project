@@ -1,0 +1,16 @@
+#Momentum: B.09.10.214 (*) 371.400 May 26 2011 
+#Momentum Date and Time: Wed Jan 15 14:38:07 2014
+
+Overall database status : 1 (file present and valid)
+
+Frequency range : from 2 GHz to 3 GHz.
+
+Requested frequency range : from 2 GHz to 3 GHz.
+
+Individual status fields : (0 = FALSE, 1 = TRUE)
+ File exists             : 1
+ Substrates match        : 1
+ Frequency-range matches : 1
+
+Corresponding potentialpath : C:\Users\DHAI
+Corresponding potentialname : C:\Users\DHAI\substrates\0011.sdb

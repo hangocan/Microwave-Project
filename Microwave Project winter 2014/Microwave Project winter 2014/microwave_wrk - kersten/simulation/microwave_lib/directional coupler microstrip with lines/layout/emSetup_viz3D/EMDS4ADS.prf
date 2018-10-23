@@ -1,0 +1,64 @@
+Begin_Block  Header 
+  
+  Mode  ASCII 
+  File_Name  "C:/Users/Kersten/microwave_wrk/simulation/microwave_lib/directional coupler microstrip with lines/layout/emSetup_viz3D/EMDS4ADS.prf" 
+  Version  3.00 
+  
+End_Block  Header 
+
+Begin_Block  Data 
+  
+  Begin_Preferences 
+  
+  Begin_Material_Block 
+  Material __TOP    7.9215686274509800e-001     8.8235294117647056e-001     1.0000000000000000e+000  
+  Material cond    9.3333333333333335e-001     4.1568627450980394e-001     3.1372549019607843e-001  
+  Material __TOP_2    7.9215686274509800e-001     8.8235294117647056e-001     1.0000000000000000e+000  
+  Material __SubstrateLayer1    7.9215686274509800e-001     8.8235294117647056e-001     1.0000000000000000e+000  
+  Material closed_bottom    0.0000000000000000e+000     0.0000000000000000e+000     7.5294117647058822e-001  
+  Material cond2    1.0000000000000000e+000     1.0000000000000000e+000     0.0000000000000000e+000  
+  Material resi    0.0000000000000000e+000     1.0000000000000000e+000     0.0000000000000000e+000  
+  Material hole    0.0000000000000000e+000     7.4901960784313726e-001     1.0000000000000000e+000  
+  Material bond    1.0000000000000000e+000     7.0980392156862748e-001     7.7254901960784317e-001  
+  Material diel2    4.6274509803921571e-001     9.3333333333333335e-001     7.7647058823529413e-001  
+  End_Material_Block 
+  
+  Begin_Color_Block 
+  Object cond_3    9.3333333333333335e-001     4.1568627450980394e-001     3.1372549019607843e-001  
+  Object cond_2    9.3333333333333335e-001     4.1568627450980394e-001     3.1372549019607843e-001  
+  Object __SubstrateLayer1_2    7.9215686274509800e-001     8.8235294117647056e-001     1.0000000000000000e+000  
+  Object __TOP_2_2    7.9215686274509800e-001     8.8235294117647056e-001     1.0000000000000000e+000  
+  Object __TOP_3    7.9215686274509800e-001     8.8235294117647056e-001     1.0000000000000000e+000  
+  Object closed_bottom_2    0.0000000000000000e+000     0.0000000000000000e+000     7.5294117647058822e-001  
+  End_Color_Block 
+  
+  Begin_Visible_Block 
+  Object cond_3 1  1  0  
+  Object cond_2 1  1  0  
+  Object __SubstrateLayer1_2 1  0  0  
+  Object __TOP_2_2 1  0  0  
+  Object __TOP_3 1  0  0  
+  Object closed_bottom_2 1  1  70  
+  End_Visible_Block 
+  
+  Begin_Plane_Block 
+  Planes 0  
+  End_Plane_Block 
+  
+  Begin_Camera_Block 
+  Position    4.8747497558593750e+002     4.4571807861328125e+002     2.0300175781250000e+003  
+  Target    1.5602584838867187e+002    -2.7809249877929687e+001     2.7620079040527344e+001  
+  Up   -6.1454033851623535e-001     7.8442430496215820e-001    -8.3778336644172668e-002  
+     8.3366040039062500e+002     8.3366040039062500e+002  
+  End_Camera_Block 
+  
+  Begin_Background_Block 
+  Top_Color    0.0000000000000000e+000     0.0000000000000000e+000     0.0000000000000000e+000  
+  Bottom_Color    0.0000000000000000e+000     0.0000000000000000e+000     0.0000000000000000e+000  
+  Shadow 0  
+  End_Background_Block 
+  
+  End_Preferences 
+  
+End_Block  Data 
+
